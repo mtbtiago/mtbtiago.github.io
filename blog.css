@@ -1,0 +1,15 @@
+body {
+  background-color: grey;
+  font-family: "Baskerville";
+}
+.niceParagraph {
+	background-color: grey;
+	font-family: "Baskerville";
+}
+footer p {
+	background-color: black;
+}
+header {
+	color: rgb(255,0,0);
+	font-family: Aclonica; font-size: 18px; font-style: italic; font-variant: normal; font-weight: 700; line-height: 18px;
+}
