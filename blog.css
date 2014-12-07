@@ -25,7 +25,7 @@ nav a:hover {
     font-style: italic;
 }
 #articles {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 .insideBox {
     padding-top: 10px;
@@ -33,11 +33,10 @@ nav a:hover {
     margin-right: auto;
     display: block;
 }
-#imgMyPicture {
-    padding-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+@-moz-document url-prefix() {
+    #imgMyPicture {
+        display: inline;
+    }
 }
 .tdCenter {
     text-align: center;
