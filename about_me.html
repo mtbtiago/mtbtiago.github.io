@@ -1,10 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>My blog</title>
-  </head>
-  <body>
-  this is about me
-  </body>
+    <title>My blog. About me</title>
+    <link rel="stylesheet" type="text/css" href="blog.css">
+</head>
+
+<body>
+    <header>
+        <h1>About me</h1>
+    </header>
+    <nav class="myBox">
+        <a href="./index.html">Back to blog</a>
+    </nav>
+    <div id="articles" class="myBox">
+        <article>
+            <img class="insideBox" src="http://placehold.it/750x300/F5A821/171814&text=this+is+my+picture" alt="this is me">
+            <p class="insideBox">Lorem fistrum se calle ustée la caidita se calle ustée llevame al sircoo por la gloria de mi madre diodenoo. Se calle ustée ahorarr pecador fistro diodeno diodenoo torpedo fistro.</p>
+        </article>
+        <article class="insideBox">
+            <h2>Things I've done</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Created on</th>
+                        <th>Current version</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Accounting software</td>
+                        <td class="tdCenter">1996</td>
+                        <td class="tdRight">5.00</td>
+                    </tr>
+                    <tr>
+                        <td>Restaurant's waiter handheld commander</td>
+                        <td class="tdCenter">2001</td>
+                        <td class="tdRight">3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Public BUS managing system</td>
+                        <td class="tdCenter">2012</td>
+                        <td class="tdRight">2.01</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <!-- end of article things i've done -->
+        <article class="insideBox">
+            <h2>Favourite meals</h2>
+            <ul>
+                <li>Cuban rize</li>
+                <li>Pizza</li>
+                <li>Spaguetti</li>
+                <li>All kind of cheese</li>
+                <li>Salads</li>
+                <li>Fruit</li>
+            </ul>
+        </article>
+        <!-- end of favourite meals -->
+        <article class="insideBox">
+            <h2>Top ten books I've read</h2>
+            <ol>
+                <li>El Quijote, Miguel de Cervantes</li>
+                <li><a href="https://www.amazon.es/gp/product/B00C7COZHI">El asesinato de Pitágoras</a>, Marcos Chicot</li>
+                <li><a href="https://www.amazon.es/gp/product/B00LA7SX60">Operación Matrioska</a>, Álvaro Botija</li>
+                <li><a href="https://www.amazon.es/gp/product/B00BJ8KSYA">Els tres primers casos de l'inspector Mascarell</a>, Jordi Serra</li>
+                <li><a href="http://www.amazon.es/gp/product/B00LU3ZE70">Si no te gusta tu vida, ¡cámbiala!</a>, Jesús Calleja</li>
+                <li><a href="https://www.amazon.es/gp/product/B006Z8349A">Productividad para perezosos</a>, Borja Prieto</li>
+                <li><a href="https://www.amazon.es/gp/product/B00699MBS0">Africanus. El hijo del cónsul</a>, Santiago Posteguillo</li>
+                <li><a href="http://www.amazon.es/gp/product/B006E9O5HK">Moby Dick</a>, Herman Melville</li>
+                <li><a href="https://www.amazon.es/gp/product/B0067QNR56">Distributed Version Control with Git</a>, Lars Vogel</li>
+                <li>Design Patterns, GoF</li>
+            </ol>
+        </article>
+        <!-- end of favourite meals -->
+    </div>
+    <!-- end of article box -->
+    <footer>
+        <ul>
+            <li><a href="http://twitter.com/ironhack">Twitter</a>
+            </li>
+            <li><a href="http://facebook.com/theironhack">Facebook</a>
+            </li>
+        </ul>
+        <p id="legal" class="myBox">Copyleft Ironhack 2014 ;)</p>
+    </footer>
+</body>
+
 </html>

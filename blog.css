@@ -1,15 +1,65 @@
 body {
-  background-color: grey;
-  font-family: "Baskerville";
+    margin: 0px auto;
+    width: 800px;
+    background-color: #D6D6D6;
+    font-family: "Baskerville";
 }
-.niceParagraph {
-	background-color: grey;
-	font-family: "Baskerville";
+.myBox {
+    display: block;
+    width: 800px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    padding: 10px;
+}
+nav {
+    background-color: black;
+    color: white;
+    float: left;
+}
+nav a {
+    color: orange;
+}
+nav a:hover {
+    color: orange;
+    font-style: italic;
+}
+#articles {
+  margin-top: 10px;
+}
+.insideBox {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+#imgMyPicture {
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.tdCenter {
+    text-align: center;
+}
+.tdRight {
+    text-align: right;
+}
+article h2 {
+    text-align: center;
 }
 footer p {
-	background-color: black;
+    background-color: black;
 }
 header {
-	color: rgb(255,0,0);
-	font-family: Aclonica; font-size: 18px; font-style: italic; font-variant: normal; font-weight: 700; line-height: 18px;
+    color: orange;
+    font-family: Aclonica;
+    font-size: 18px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
+#legal {
+    color: orange;
 }
