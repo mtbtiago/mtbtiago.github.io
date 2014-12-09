@@ -1,0 +1,10 @@
+article {
+  margin: 0px auto;
+  width: 1000px;
+  height: 1000px;
+  display: block;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 3px;
+}
