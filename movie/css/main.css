@@ -1,5 +1,13 @@
+i {
+	font-size: 1.1em;
+	font-weight: bold;
+}
 article {
+  font-family: sans-serif;
+  background-color: rgb(220, 245, 240);
+  font-size: 1.3em;
   margin: 0px auto;
+  padding: 0px 16px;
   width: 1000px;
   height: 1000px;
   display: block;
@@ -7,4 +15,28 @@ article {
   border-color: black;
   border-width: 3px;
   border-radius: 3px;
+}
+
+.articleTitle {
+	font-family: "Linux Libertine",Georgia,Times,serif;
+	font-style: italic;
+}
+
+.articleSubtitle {
+	font-size: 0.65em;
+}
+
+.articleBody {
+	font-size: 0.75em;
+}
+
+.articleImage {
+  float: left;
+  padding: 16px 4px 4px 16px;
+  margin: 0px 16px 16px 0px;
+}
+.shadowedBox {
+  -webkit-box-shadow: 10px 5px 5px #888888;
+  -moz-box-shadow: 10px 5px 5px #888888;
+  box-shadow: 10px 5px 5px #888888;
 }
