@@ -1,7 +1,10 @@
-i {
-	font-size: 1.1em;
-	font-weight: bold;
+.topBottom {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  margin: 0px auto;
 }
+
 article {
   font-family: sans-serif;
   background-color: rgb(220, 245, 240);
@@ -17,21 +20,47 @@ article {
   border-radius: 3px;
 }
 
+.articlePart {
+  width: 440px;
+  height: 600px;
+  margin: 30px 30px;
+  display: block;
+}
+
+.articleBottom {
+  width: 940px;
+  height: 300px;
+  margin: 30px 30px;
+  display: block;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.floatRight {
+  float: right;
+}
+
+article i {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
 .articleTitle {
 	font-family: "Linux Libertine",Georgia,Times,serif;
 	font-style: italic;
 }
 
 .articleSubtitle {
-	font-size: 0.65em;
+	font-size: 0.5em;
 }
 
-.articleBody {
+.articleText {
 	font-size: 0.75em;
 }
 
 .articleImage {
-  float: left;
   padding: 16px 4px 4px 16px;
   margin: 0px 16px 16px 0px;
 }
@@ -39,4 +68,21 @@ article {
   -webkit-box-shadow: 10px 5px 5px #888888;
   -moz-box-shadow: 10px 5px 5px #888888;
   box-shadow: 10px 5px 5px #888888;
+}
+
+.marginTopBlock {
+  margin-top: 8px
+}
+
+.horList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+
+.legal {
+  font-size: 0.85em;
 }
