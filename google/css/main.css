@@ -114,6 +114,8 @@ footer {
   min-width: 980px;
   position: absolute;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%
 }
 
