@@ -53,3 +53,9 @@ aside {
   font-family: sans-serif;
   text-align: center;
 }
+
+.vertCenter {
+  position: relative; 
+  top: 50%; 
+  transform: translateY(-50%);
+}
