@@ -13,7 +13,7 @@
 	</header>
 	<div id="centerDiv">
 		<article>
-			<section class="insideContainer">
+			<section id="panelOne" class="insideContainer">
 				<img id="imgRotating" src="./img/img-rotating.jpeg">
 				<ul id="idOptions">
 					<li class="optionsItem">
@@ -34,7 +34,7 @@
 					</li>
 				</ul>
 			</section>
-			<section id="evemtsNewsContainer" class="insideContainer textProps">
+			<section id="eventsNewsContainer" class="insideContainer textProps">
 				<div id="eventsContainer">
 					<div id="eventsHeader">EVENTOS</div>
 					<ul id="idEvents">
@@ -47,17 +47,20 @@
 				</div>
 				<div id="newsContainer">
 					<div id="newsHeader">MÁS NOTICIAS | ¿QUIERES SER NOTICIA? | AGENDA | SALA DE PRENSA</div>
-					<img src="./img/img-news.jpg">
-					<div id="idArticle">La UMA aborda su estrategia de futuro con la presentación de 'La Universidad que queremos' La institución realiza un ejercicio de transparencia al hacer una reflexión conjunta sobre su situación actual y propuestas para su mejora Leer más +</div>
+					<div id="newsBlock">
+						<img id="newsPicture" src="./img/img-news.jpg">
+						<div id="idArticle"><p>La UMA aborda su estrategia de futuro con la presentación de 'La Universidad que queremos' La institución realiza un ejercicio de transparencia al hacer una reflexión conjunta sobre su situación actual y propuestas para su mejora</p>Leer más +
+						</div>
+						<ul id="articleImages">
+							<li class="articleImg">Img 1</li>
+							<li class="articleImg">Img 2</li>
+							<li class="articleImg">Img 3</li>
+							<li class="articleImg">Img 4</li>
+							<li class="articleImg">Img 5</li>
+							<li class="articleImg">Img 6</li>
+						</ul>
+					</div>
 				</div>
-				<ul id="articleImages">
-					<li class="articleImg">Img 1</li>
-					<li class="articleImg">Img 2</li>
-					<li class="articleImg">Img 3</li>
-					<li class="articleImg">Img 4</li>
-					<li class="articleImg">Img 5</li>
-					<li class="articleImg">Img 6</li>
-				</ul>
 			</section>
 			<section>
 				<table id="idLinks">
@@ -84,6 +87,41 @@
 					    <td>Centro Internacional de Español</td>
 					    <td>Cultura</td>
 					  </tr>
+					  <tr>
+					    <td>Aljamiento</td>
+					    <td>Cátedras</td>
+					    <td>Defensor del universitario</td>
+					  </tr>
+					  <tr>
+					    <td>Historia</td>
+					    <td>Repositorio institucional</td>
+					    <td>Deportes</td>
+					  </tr>
+					  <tr>
+					    <td>la UMA en imágenes</td>
+					    <td>Centro de Tecnología de la Imagen</td>
+					    <td>Enseñanza Virtual</td>
+					  </tr>
+					  <tr>
+					    <td>La UMA en cifras</td>
+					    <td>Asociación antiguos alumnos</td>
+					    <td>Empleo y orientación profesional</td>
+					  </tr>
+					  <tr>
+					    <td>Relaciones institucionales</td>
+					    <td>Asociación profesores jubilados</td>
+					    <td>Gerencia</td>
+					  </tr>
+					  <tr>
+					    <td>Comunicación e información</td>
+					    <td>Perfil del contratante</td>
+					    <td>Secretaria general</td>
+					  </tr>
+					  <tr>
+					    <td>Responsabilidad social</td>
+					    <td>Transparencia</td>
+					    <td>Servicio Central de informática</td>
+					  </tr>
 					</tbody>
 				</table>
 			</section>
@@ -94,7 +132,7 @@
 			<div id="item2" class="rightItem">Item 2</div>
 			<div id="item3" class="rightItem">Item 3</div>
 			<div id="topStories" class="rightItem">
-				<div>Destacados</div>
+				<div id="topStoriesHeader">Destacados</div>
 				<ul id="topStoriesList">
 					<li class="topStoriesItem">Consejo de Gobierno Extraordinario de 18 de diciembre</li>
 					<li class="topStoriesItem">Consejo de Gobierno de 22 de diciembre</li>
@@ -105,7 +143,17 @@
 		</aside>
 	</div>
 	<footer>
-		<div class="textProps vertCenter">100% * 130 px</div>
+		<div class="textProps">
+			<ul id="footerLogos">
+				<li class="footerLogo">Logo 1</li>
+				<li class="footerLogo">Logo 2</li>
+				<li class="footerLogo">Logo 3</li>
+				<li class="footerLogo">Logo 4</li>
+				<li class="footerLogo">Logo 5</li>
+				<li class="footerLogo">Logo 6</li>
+			</ul>
+			<div id="bottomText"><span>Universidad de Málaga   Avda. Cervantes, 2   29071 MÁLAGA   Tel. 952 13 10 00 </span><span class="email"><strong>infouma@uma.es</strong></span></div>
+		</div>
 	</footer>
 </body>
 
